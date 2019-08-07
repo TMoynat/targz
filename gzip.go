@@ -14,7 +14,7 @@ func check_err(err error, msg string) {
 	}
 }
 
-func ungzipator(gzipstream io.Reader) {
+func Ungzipator(gzipstream io.Reader) {
 	uncompressed, err := gzip.NewReader(gzipstream)
 	check_err(err, "uncompression")
 	tarstream := tar.NewReader(uncompressed)
