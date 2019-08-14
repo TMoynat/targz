@@ -16,6 +16,7 @@ func check_err(err error, msg string) {
 }
 
 func Ungzipator(gzipstream io.Reader) {
+	fmt.Println("UntarGz in progress...")
 	uncompressed, err := gzip.NewReader(gzipstream)
 	check_err(err, "uncompression")
 	tarstream := tar.NewReader(uncompressed)
