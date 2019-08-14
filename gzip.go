@@ -12,6 +12,7 @@ func check_err(err error, msg string) {
 	if err != nil {
 		fmt.Println("Error : ", msg, " failed...")
 	}
+	os.Exit(-1)
 }
 
 func Ungzipator(gzipstream io.Reader) {
