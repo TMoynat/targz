@@ -1,4 +1,4 @@
-# TarGz Lirary
+# TarGz Library
 
 Go-lang library to TarGz or UnTarGz stream objects.
 
