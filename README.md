@@ -5,14 +5,14 @@ Go-lang library to tarGz or untarGz stream objects.
 ## Installation
 
 ```bash
-go get github.com/TMoynat/ungzip
+go get github.com/TMoynat/targz
 ```
 
 ## Usage
 
 ```go
 import (
-       github.com/TMoynat/ungzip
+       github.com/TMoynat/targz
 )
 
 go_gzip.Ungzipator(stream) // stream is an io.Reader type
