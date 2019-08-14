@@ -1,6 +1,6 @@
 # TarGz Library
 
-Go-lang library to TarGz or UnTarGz stream objects.
+Go-lang library to tarGz or untarGz stream objects.
 
 ## Installation
 
