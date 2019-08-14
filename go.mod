@@ -1,3 +1,3 @@
-module go_zip
+module go_gzip
 
 go 1.12
