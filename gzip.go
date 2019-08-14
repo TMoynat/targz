@@ -1,4 +1,4 @@
-package go_gzip
+package targz
 
 import (
 	"archive/tar"
