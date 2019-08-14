@@ -10,8 +10,10 @@ import (
 
 func check_err(err error, msg string) {
 	if err != nil {
-		fmt.Println("Error : ", msg, " failed...")
+		fmt.Println("[Failure] ", msg)
                 os.Exit(-1)
+	} else {
+		fmt.Println("[Success] ", msg)
 	}
 }
 
