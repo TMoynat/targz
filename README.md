@@ -1,6 +1,6 @@
-# TarGz Library
+# Targz Library
 
-Go-lang library to tarGz or untarGz stream objects.
+Go-lang library to targz or untargz stream objects.
 
 ## Installation
 
@@ -15,12 +15,12 @@ import (
        github.com/TMoynat/targz
 )
 
-go_gzip.Ungzipator(stream) // stream is an io.Reader type
+targz.Untargz(stream) // stream is an io.Reader type
 ```
 ## Roadmap
 
-- [x] UnTarGz
-- [ ] TarGz
+- [x] Untargz
+- [ ] Targz
 
 ## License
 
